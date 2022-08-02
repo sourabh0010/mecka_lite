@@ -1,0 +1,12 @@
+@import "../../css/vars.scss";
+@import "../../css/mixin.scss";
+
+.c-button {
+    .Mui-disabled {
+        background-color: #f57c0066 !important;
+        color:$color-white !important;
+    }
+    button {
+        color:$color-white;
+    }
+}
