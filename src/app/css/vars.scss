@@ -1,0 +1,193 @@
+// basic colors
+$color-white: #fff;
+$button-border: #d2ddef;
+$color-red: #cc3d00;
+$color-border-red: #ff4d4f;
+$color-red-op: rgba(204, 61, 0, 0.02);
+$color-red-op-5: rgba(204, 61, 0, 0.5);
+$color-red-op-0: rgba(204, 61, 0, 0);
+$color-lightgray: #f0f2f6;
+$color-darkgray: #4f5760;
+$color-lightestgray: #eeeeee;
+$lightgrey: #a1a1a1;
+// $color-black: #2c3136;
+$color-yellow: #f1cf5b;
+$color-torquis: #7ecabe;
+$color-cyan: #4db8c3;
+$color-purple: #ab4dc3;
+$color-light-ocean: #e2f6f7;
+$color-lightgray-2: #9d9d9d;
+$color-black: #000000;
+$color-gray-blue: #eaf1fe;
+$color-gray-whitesmoke: #f5f5f5;
+$color-grey: #666666;
+
+// colors
+$color-blue: #2e79f8;
+$light-blue2 :#3099ec;
+$light-blue3: #607d8b;
+$color-blue-light-shade: #1890ff;
+$color-green: #32c788;
+$color-green-opc: rgba(53, 216, 161, 0.1);
+$color-blue-light: #2a4a79;
+$color-dark-blue: #9cabf4;
+$color-hard-blue: #20347d;
+$color-orange: #f58234;
+$color-dark-orange: #ed6c02;
+$pumpkin-orange-99: rgba(245, 124, 0, 0.99);
+$orange-panel: rgba(245, 130, 52, 0.3);
+$orange-panel-border: #f58234;
+$color-light-gray: #ebf3ff;
+$color-light-grayies: #f2f7ff;
+$color-blue-text: #0c4da2;
+$gray-panel: rgba(90, 140, 255, 0.1);
+$gray-panel-border: #5a8cff;
+$gray-panel-shadow: #57a8e9;
+$green-panel: rgba(126, 211, 33, 0.1);
+$green-panel-border: #7ed321;
+$green-panel-border2: #00C853;
+$yellow-panel: #fff9e6;
+$yellow-panel-border: #ffc107;
+$yellow-panel-opc: lighten($yellow-panel-border, 42);
+$red-panel: rgba(204, 61, 0, 0.12);
+$red-panel-border: #cc3d00;
+$light-green: #f9fcff;
+$text-gray: #a5bcdf;
+$border-gray: rgba(165, 188, 223, 0.5);
+$pannel-bg: #ebf1f8;
+$disabled-section-gainsboro: #dcdcdc;
+$light-grey: #eeeeee;
+$grey-200: #b7b7b7;
+$light-grey-001: #f5f5f5;
+$color-red-icon: red;
+$light-blue: #2e79f88c;
+$editor-highlight-light: #dde8f2;
+$orange-color: #f7b000;
+$orange-text-color: #f57c00;
+$orange-text-color2: #e57c00;
+$slick-gray: #ccc;
+$bg-light-gray: #ebebeb;
+$orange: orange;
+$magenta-bg: #fff0d3;
+$image-border: #c2c2c2;
+$search-black-color: #100d19;
+
+// scheduler color codes
+$yellow-panel-background: lighten($yellow-panel-border, 37);
+$red-panel-background: lighten($red-panel-border, 48);
+$green-panel-background: lighten($color-green, 40);
+$blue-panel-background: lighten($color-blue, 28);
+$dark-blue-panel-background: lighten($color-blue, 5);
+$orange-panel-background: lighten($color-orange, 30);
+
+// components colors:
+$app-background: #f7f9fb;
+$content-color: #748aac;
+$content-dark-color: $color-white;
+$content-dark-subcolor: #c1d4e7;
+$content-grey-gainsboro: rgba(220, 220, 220);
+$content-background: $color-white;
+$content-dark-background: $color-black;
+
+$border-color: rgba(165, 188, 223, 0.7);
+$border-color2: #d9d9d9;
+$background-active: rgba(50, 199, 136, 0.1);
+$light-black-color: rgba(0, 0, 0, .7);
+$lightest-black-color: rgba(0, 0, 0, .87);
+$lightest-black-color1: rgba(0, 0, 0, .9);
+$lighter-black-color: rgba(0, 0, 0, .98);
+$lightest-black-disable-color: rgba(0, 0, 0, 0.4);
+$border-black-color: rgba(0, 0, 0, 0.15);
+$pure-black: rgba(0, 0, 0);
+
+// components colors:
+$app-sidebar: $content-dark-background;
+
+// components dimentions:
+$header-height: 60px;
+$sidebar-width: 64px;
+$menu-width: 200px;
+$menu-compact-width: 50px;
+$component-inner-spaceing: 3px;
+$page-horizontal-space: 40px;
+$sidebar-helper-width: $page-horizontal-space - 50px;
+
+// global stuff
+$global-font-size: 16px;
+$component-margin: 40px;
+$line-height: 30px;
+$border-radius: 4px;
+$border-radius-small: $border-radius;
+
+// fonts:
+$font-size-xxs: 9px;
+$font-size-xxm: 10px;
+$font-size-xs: 11px;
+$font-size-xsm: 12px;
+$font-size-s: 13px;
+$font-size-m: 14px;
+$font-size-l: 16px;
+$font-size-ml: 18px;
+$font-size-xl: 20px;
+$font-size-lxl: 22px;
+$font-size-xxl: 24px;
+$font-size-2xl: 30px;
+$font-size-xxxl: 36px;
+$font-size-40: 40px;
+$font-size-g: 48px;
+
+// sizes:
+// $screens: (
+//   desktop: 1201px,
+//   min-desktop: 1200px,
+//   tablet: 992px,
+//   tablet-medium: 767px,
+//   mobile: 479px
+// );
+$lg-desktop: 1840px;
+$medium-desktop: 1600px;
+$max-desktop: 1440px;
+$mid-sm-desktop: 1230px;
+$desktop: 1201px;
+$min-desktop: 1200px;
+$lg-tablet: 1024px;
+$tablet: 992px;
+$min-tablet: 991px;
+$tablet-medium: 767px;
+$mobile: 479px;
+
+// colors
+@function getRGBValues($color) {
+  @return #{red($color), green($color), blue($color)};
+}
+
+// ---------- Font Weight mixin -----------//
+
+$font-thin: 100;
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-ex-bold: 900;
+
+// ----------box shadow css --------------//
+
+$box-shadow-base: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-base-2: 0 1px 8px 0 rgba(0, 0, 0, 0.16);
+$box-shadow-base-3: 0 2px 8px 0 rgba(0, 0, 0, 0.24);
+$box-shadow-base-4: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+$border-radius-base: 4px;
+$border-radius-base-2: 5px;
+
+$scheduler-row-height: 40px;
+
+
+@media (min-width: $max-desktop) {
+  $font-size-xsm: 14px;
+}
+
+$document-preview-background: rgba(165, 188, 223, 0.1);
+$color-warning: #fff2cc;
+$color-alert: #fce0bb;
+$background-widget-spinner: rgba(255, 255, 255, 0.4);
+$background-widget-spinner-darker: rgba(255, 255, 255, 0.6);
