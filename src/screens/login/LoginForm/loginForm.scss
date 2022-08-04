@@ -1,0 +1,61 @@
+@import '../../../app/css/vars.scss';
+@import '../../../app/css/mixin.scss';
+.login-form{
+  margin-top: 10%;
+
+.box {
+  @include flex-direction(column);
+  @include flexbox();
+  @include flex(column);
+  @include align-items(left);
+  @include justify-content(center);
+  box-shadow: 0px 3px 12px 1px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 0 auto; 
+  width: 72%;
+  .MuiInputLabel-root{
+    font-size: $font-size-m;
+    &.Mui-focused{
+      color: $orange-text-color;
+    }
+  }
+  .MuiTypography-root,input{
+    font-size: $font-size-l;
+    color: $color-black;
+  }
+  .c-dialog{
+    width: 100%;
+    padding-top: 16px;
+    .MuiTypography-root{
+      font-size: $font-size-xsm;
+      color: $light-black-color;
+      font-family: 'noto_sansregular';
+      text-align: center;
+    }
+  }
+    .button-submit {
+      width: 100%;
+      margin-top: 30px;
+      button{
+        width: 100%;
+        padding: 9px 16px;
+        text-align: center;
+        box-shadow: none;
+        font-size: $font-size-m;
+        background: $orange-text-color;
+        color: $color-white;
+        font-family: 'noto_sanssemibold';
+      }
+    
+    }
+    .MuiFormControl-root{
+      width:100%;
+      padding-bottom: 10px;
+    }
+    .MuiFormControlLabel-root{  
+      margin-left:-10px
+
+    }
+  }
+}
+
