@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import DrawerMUI from '@mui/material/Drawer';
-import Events from '../../lib/events';
+import Events from '../../app/lib/events';
 
 function Drawer({ children, ...props }) {
   const [isOpen, setOpenState] = useState(false);
