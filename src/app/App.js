@@ -8,6 +8,7 @@ import SignUp from '../screens/signUp';
 import Profile from '../screens/profile';
 import { UiRoute } from './constants/uiRoutes';
 import Sidebar from './Sidebar';
+import Discovery from '../screens/Discovery';
 
 import './App.scss';
 
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path={UiRoute.signup} element={<SignUp />} />
         <Route path={UiRoute.profile} element={<Profile />} />
+        <Route path={UiRoute.discovery} element={<Discovery />} />
 
         {/* <SignUp /> */}
 
