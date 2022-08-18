@@ -1,0 +1,56 @@
+@import '../../app/css/vars.scss';
+@import '../../app/css/mixin.scss';
+
+.header-section{
+    .header-sub-container{
+        background-color: $color-white; 
+        color:$color-black;
+        min-height: 57px;
+        box-shadow: none;
+        // border-bottom: 1px solid $slick-gray;
+        .heading-style {
+            display: flex;
+            flex: 1;
+            padding-left: 12px;
+            font-size: $font-size-ml;
+            color: $color-black;
+            font-family: 'noto_sanssemibold';
+        }
+        button{
+            color: $color-black;
+            padding: 12px;
+            font-family: 'noto_sanssemibold';
+            &.MuiButton-Primary{
+                font-size: $font-size-m;
+                color: $orange-text-color;
+                padding-right: 0;
+            }
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
+.content-section{
+    @include flex-grow(1);
+    @include flexbox();
+    @include flex-direction(column);
+    margin-top: 65px;
+    @media (max-width: 600px){
+        margin-top: 57px;
+    }
+}
+
+::-webkit-input-placeholder {
+    font-size: $font-size-m;
+    color: rgba(16, 13, 25, 0.6);
+}  
+:-ms-input-placeholder {
+    font-size: $font-size-m;
+    color: rgba(16, 13, 25, 0.6);
+}  
+::placeholder {
+    font-size: $font-size-m;
+    color: rgba(16, 13, 25, 0.6);
+}

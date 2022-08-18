@@ -1,0 +1,40 @@
+@import '../../../css/vars.scss';
+@import '../../../css/mixin.scss';
+
+.left-sidebar{
+    .MuiList-root{
+        padding: 14px 21px;
+        .MuiListItem-root{
+            padding: 0;
+        }
+    }
+    .divider{
+        width: 100%;
+        height: 8px;
+        margin-bottom: 8px;
+        background-color: $color-gray-whitesmoke;
+    }
+    .menu-links{
+        padding: 0;
+        .MuiButtonBase-root{
+            padding: 12px 21px;
+        }
+        .MuiListItemIcon-root{
+            min-width: 40px;
+            img{
+                max-width: 20px;
+                max-height: 16px;
+            }
+            svg{
+                color: $color-black;
+            }
+        }
+    }
+    .MuiTypography-root{
+        font-size: $font-size-l;
+        color: $color-black;
+    }
+    .MuiListItemText-root{
+        margin: 0;
+    }
+}
