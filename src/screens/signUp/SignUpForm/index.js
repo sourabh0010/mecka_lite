@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useCallback, useEffect, useState } from 'react';
+import { Typography } from '@mui/material';
 
-// import { UiRoutes, phoneNumberPattern, numberValidation } from '../../../lib/constants';
 
 import TextField from '../../../components/TextField';
 import Button from '../../../components/Button';
@@ -42,6 +42,16 @@ function NumberVerification({
 
   return (
     <div className="login-form">
+      <Typography
+        sx={{
+          pl: 2, textAlign: 'center', marginBottom: '10px', fontSize: 20,
+        }}
+        className="login-text"
+      >
+        Create a New Mecka Account
+        {' '}
+
+      </Typography>
       <Box component="form" className="box" onSubmit={handleSubmit}>
         <TextField
           value={value}
@@ -81,6 +91,7 @@ function NumberVerification({
         >
           Create
         </Button>
+        <Typography sx={{ textAlign: 'center', fontSize: 8, marginTop: 2 }}>Login into Existing Mecka Account</Typography>
       </Box>
     </div>
 

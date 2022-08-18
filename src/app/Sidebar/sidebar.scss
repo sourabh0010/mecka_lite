@@ -1,0 +1,19 @@
+@import "../../app/css/vars.scss";
+@import "../../app/css/mixin.scss";
+
+
+.MuiDrawer-root{
+  z-index: 1400 !important;
+}
+
+.menu-links{
+  .c-icon-button {
+  .MuiButtonBase-root{
+    height:7px !important;
+    padding-right: 0px !important;
+    img{
+      width:17px
+    }
+  }
+}
+}
